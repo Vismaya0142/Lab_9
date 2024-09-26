@@ -36,3 +36,76 @@
     transform: rotate(360deg);
   }
 }
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.image-item {
+  margin: 10px;
+  border: 2px solid #ddd;
+  padding: 5px;
+  width: 200px;
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.login-form {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form div {
+  margin-bottom: 15px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.login-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+.login-container {
+  width: 300px;
+  margin: auto;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-item {
+  margin: 10px;
+}
+
+.image-item img {
+  width: 150px; 
+  height: auto;
+}
